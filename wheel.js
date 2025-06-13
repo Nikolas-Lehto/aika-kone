@@ -45,7 +45,7 @@ const props = {
             label: 'Kreikka, 1896',
         },
          {
-            label: 'Turkmenistan 2003, 1980',
+            label: 'Turkmenistan 2003',
         },
         {
             label: 'Sektori fu7ur3, 2080',
