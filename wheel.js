@@ -15,7 +15,13 @@ const props = {
             label: 'Iso Britannia, 1911',
         },
         {
+            label: 'Saksa, 1943',
+        },
+        {
             label: 'Knöpö (Suomi), 1976',
+        },
+        {
+            label: 'Tapiola, 1980',
         },
         {
             label: 'Myllyjärvi, 2025',
@@ -24,16 +30,28 @@ const props = {
             label: 'Villi Länsi, 1802',
         },
         {
+            label: 'Intia, 2003',
+        },
+        {
             label: 'Kouvola, 1999',
         },
         {
             label: 'Japani, 1960',
         },
         {
-            label: 'Kreikka, 1896',
+            label: 'Kiina, 1853',
         },
         {
-            label: 'Sektori fu7ur3, 2080'
+            label: 'Kreikka, 1896',
+        },
+         {
+            label: 'Turkmenistan 2003, 1980',
+        },
+        {
+            label: 'Sektori fu7ur3, 2080',
+        },
+        {
+            label: 'Kaukainen tulevaisuus, 9804',
         }
     ]
 }
