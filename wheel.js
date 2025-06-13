@@ -2,9 +2,7 @@ import {Wheel} from 'https://cdn.jsdelivr.net/npm/spin-wheel@5.0.2/dist/spin-whe
 
 
 //     Conf     //
-
 const item = 3
-
 // //////////// //
 
 function easeOutExpo(x) {
@@ -40,10 +38,10 @@ const props = {
     ]
 }
 
-// 2. Decide where you want it to go:
 const container = document.querySelector('main');
-// 3. Create the wheel in the container and initialise it with the props:
 const wheel = new Wheel(container, props);
+const body = document.querySelector('body')
+
 wheel.isInteractive = false
 wheel.borderColor = "#BBE6FB"
 wheel.borderWidth = 3
@@ -51,13 +49,12 @@ wheel.lineColor = "#BBE6FB"
 wheel.lineWidth = 3
 wheel.itemBackgroundColors = ["#112A57", "#447EBC"]
 wheel.itemLabelColors = ["#BBE6FB"]
-const body = document.querySelector('body')
 
 body.onkeydown = function(){
     wheel.spinToItem(
         item,                                       // Item
         3000 + Math.floor(Math.random() * 2000),    // Time (ms)
-        true,                                       // Magic
+        true,                                       // Magic (idk man)
         Math.floor((Math.random() * 6) + 2),        // Rounds
         1,                                          // Direction
         easeOutExpo                                 // Easing
